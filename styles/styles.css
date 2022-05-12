@@ -9,8 +9,8 @@ body {
 }
 
 .section-padding {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
 }
 
 h1 {
@@ -91,6 +91,19 @@ ul li {
     margin-left: 10px !important;
 }
 
+.center {
+    display: flex;
+    justify-content: center !important;
+}
+
+.break-url {
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+    -ms-word-break: break-all !important;
+    word-break: break-all !important;
+    word-break: break-word !important;
+}
+
 /* Buttons */
 .learn-more-button {
     /* background-color: #154854 !important; */
@@ -120,6 +133,13 @@ button {
 label {
     color: black !important;
 }
+
+/* .price-label {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px !important;
+} */
 
 .form-inline {
     display: flex;
@@ -160,7 +180,7 @@ select {
     .form-inline input {
         margin: 10px 0;
     }
-    
+
     .form-inline {
         flex-direction: column;
         align-items: stretch;
@@ -172,7 +192,7 @@ select {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width:100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -183,20 +203,106 @@ select {
     margin-left: auto;
 }
 
+/* Switch for toggle */
+/* .toggle {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #118a31;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color: #113c8a;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+} */
+
 /* Card elements */
 .card-header {
     background-color: #113c8a !important;
+}
+
+.card-header-green {
+    background-color: #118a31 !important;
+}
+
+.card-header-dark {
+    background-color: #363636 !important;
 }
 
 .card-header-title {
     color: white !important;
 }
 
+.card-footer-button {
+    background-color: #113c8a !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.card-footer-button-green {
+    background-color: #118a31 !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
 .card-footer-img {
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    max-width:100% !important;
+    max-width: 100% !important;
     height: auto !important;
 }
 
