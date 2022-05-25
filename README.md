@@ -1,4 +1,4 @@
-# Kingdom Application Solutions
+# Kingdom Application Solutions LLC
 
 Glorifying God Through the Development of Quality Software Applications!
 
