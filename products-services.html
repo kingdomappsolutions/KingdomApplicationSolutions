@@ -1,21 +1,28 @@
 <!DOCTYPE html>
-<html class="has-navbar-fixed-top">
+<html class="has-navbar-fixed-top" lang="en">
     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Cache-Control" content="public, max-age:2592000" />
+        <meta name="description" content="The products and services offered by Kingdom Application Solutions LLC." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Products & Services</title>
-        <script src="./scripts/scripts.js"></script>
-        <link rel="stylesheet" href="./styles/styles.css" />
         <link rel="icon" href="./images/favicon.ico" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-        <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <link rel="stylesheet" defer href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <link rel="stylesheet" defer href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <script src="./scripts/scripts.js"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
     </head>
 
     <body>
         <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <a class="navbar-item" href="https://kingdomappsolutions.tech">
-                    <img src="./images/website.logo.png">
+                    <picture>
+                        <source srcset="./images/website.logo.webp" type="image/webp">
+                        <source srcset="./images/website.logo.png" type="image/png">
+                        <img src="./images/website.logo.webp" alt="Main page logo" width="112" height="28">
+                    </picture>
                 </a>
         
                 <a role="button" class="navbar-burger is-dark" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -53,7 +60,7 @@
                     </div>
 
                     <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">
+                        <a class="navbar-link" href="https://kingdomappsolutions.tech/about.html">
                             Info
                         </a>
                 
@@ -80,7 +87,7 @@
                         <div class="buttons">
                             <a class="button learn-more-button" href="https://kingdomappsolutions.tech/mission-vision-values.html">
                             <i class="fas fa-info-circle"></i>
-                            &nbsp;&nbsp; <strong>Learn More</strong>
+                            &nbsp;&nbsp; <strong>Our Values</strong>
                             </a>
                         </div>
                     </div>
@@ -94,7 +101,11 @@
                     <h1 class="title white-text">
                         The Products and Services We Offer
                     </h1>
-                    <img class="home-image" src="./images/header.png" width="300" alt="Logo">
+                    <picture>
+                        <source srcset="./images/header.webp" type="images/webp">
+                        <source srcset="./images/header.png" type="images/png">
+                        <img class="home-image" src="./images/header.webp" width="300" height="169" alt="Our logo">
+                    </picture>
                 </div>
             </div>
         </section>
@@ -117,12 +128,25 @@
                                 <div class="content">
                                     We offer mobile app development for organizations and businesses that wouldn't otherwise be able to have a mobile app presense. Our aim is to bring mobile app development to small businesses and organizations at an affordable price.
                                     
-                                    Click <u><a href="https://kingdomappsolutions.tech/apps.html">here</a></u> to see more information about pricing for custom mobile app development. <br><br> For examples of the apps we currently offer, click the buttons below to be taken to the respective app store pages.<br>
+                                    Click the link to see more information about pricing for <u><a href="https://kingdomappsolutions.tech/apps.html">custom mobile app development</a></u>. <br><br> For examples of the apps we currently offer, click the buttons below to be taken to the respective app store pages.<br>
                                 </div>
                             </div>
                             <footer class="card-footer">
-                                <a class="card-footer-item" href='https://play.google.com/store/apps/dev?id=6176031387559591020' target="_blank"><img src='./images/google.png' style="width: 300px;" alt="Google Play Store"></a>
-                                <a class="card-footer-item" href="https://apps.apple.com/us/developer/kingdom-application-solutions-llc/id1549908448" target="_blank"><img src="./images/apple.png" style="width: 300px;" alt="Apple App Store"></a>
+                                <a class="card-footer-item" href='https://play.google.com/store/apps/dev?id=6176031387559591020' target="_blank">
+                                    <picture>
+                                        <source srcset="./images/google.webp" type="images/webp">
+                                        <source srcset="./images/google.png" type="images/png">
+                                        <img src='./images/google.webp' width="300" height="116" alt="Google Play Store">
+                                    </picture>
+                                </a>
+
+                                <a class="card-footer-item" href="https://apps.apple.com/us/developer/kingdom-application-solutions-llc/id1549908448" target="_blank">
+                                    <picture>
+                                        <source srcset="./images/apple.webp" type="images/webp">
+                                        <source srcset="./images/apple.png" type="images/png">
+                                        <img src="./images/apple.webp" width="300" height="116" alt="Apple App Store">
+                                    </picture>
+                                </a>
                             </footer>                    
                         </div>
                     </div>
@@ -137,7 +161,7 @@
                             </header>
                             <div class="card-content">
                                 <div class="content">
-                                    We offer the design and development of custom websites for organizations and individuals. We primarily do this through the use of HTML, CSS, and JavaScript. We utilize popular custom elements to build a website to meet your needs, increase performance, and aid in search engine optimization. <br><br> We also offer the creation of websites through a content manangement option if that fits your needs better for easy updating. Click <u><a href="https://kingdomappsolutions.tech/websites.html">here</a></u> for information about website development pricing for both custom and content management systems.<br>
+                                    We offer the design and development of custom websites for organizations and individuals. We primarily do this through the use of HTML, CSS, and JavaScript. We utilize popular custom elements to build a website to meet your needs, increase performance, and aid in search engine optimization. <br><br> We also offer the creation of websites through a content manangement option if that fits your needs better for easy updating. Click the link for information about <u><a href="https://kingdomappsolutions.tech/websites.html">website development pricing</a></u> for both custom and content management systems.<br>
                                 </div>
                             </div>
                         </div>
@@ -185,7 +209,7 @@
                 <div class="columns">
                     <div class="column">
                         <p>
-                           <a href="mailto:justin@kingdomappsolutions.tech">justin@kingdomappsolutions.tech</a>
+                           <a class="footer-a" href="mailto:justin@kingdomappsolutions.tech">justin@kingdomappsolutions.tech</a>
                         </p>
                     </div>
                 </div>

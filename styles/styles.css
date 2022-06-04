@@ -70,12 +70,12 @@ p {
     font-size: 20px;
 }
 
-p i {
-    margin-right: 10px;
+p svg {
+    margin-right: 10px !important;
 }
 
 p a {
-    color: gray !important;
+    color: #333333 !important;
     font-size: 18px;
 }
 
@@ -106,7 +106,6 @@ ul li {
 
 /* Buttons */
 .learn-more-button {
-    /* background-color: #154854 !important; */
     background-color: #113c8a !important;
     color: white !important;
 }
@@ -134,13 +133,6 @@ label {
     color: black !important;
 }
 
-/* .price-label {
-    text-align: center;
-    font-weight: bold;
-    text-decoration: underline;
-    font-size: 20px !important;
-} */
-
 .form-inline {
     display: flex;
     flex-flow: row wrap;
@@ -162,19 +154,6 @@ label {
     margin: 5px 10px 5px 0;
     font-family: Georgia, serif;
 }
-
-/*option {
-    font-size: 20px;
-    font-family: Georgia, serif;
-}
-
-select {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 240px;
-    height: 37px;
-}*/
 
 @media (max-width: 800px) {
     .form-inline input {
@@ -203,71 +182,9 @@ select {
     margin-left: auto;
 }
 
-/* Switch for toggle */
-/* .toggle {
-    display: inline-block;
-    margin-left: 15px;
-    margin-right: 20px;
+picture {
+    margin-top: 3px !important;
 }
-
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-}
-
-.switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-}
-
-.slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #118a31;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-}
-
-.slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-}
-
-input:checked + .slider {
-    background-color: #113c8a;
-}
-
-input:focus + .slider {
-    box-shadow: 0 0 1px #2196f3;
-}
-
-input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-}
-
-.slider.round {
-    border-radius: 34px;
-}
-
-.slider.round:before {
-    border-radius: 50%;
-} */
 
 /* Card elements */
 .card-header {
@@ -333,7 +250,12 @@ input:checked + .slider:before {
 
 .footer-p {
     text-align: center;
-    color: gray;
+    color: #dcdada;
+    font-size: 18px;
+}
+
+.footer-a {
+    color: #dcdada !important;
     font-size: 18px;
 }
 

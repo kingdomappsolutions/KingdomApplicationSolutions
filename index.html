@@ -1,21 +1,28 @@
 <!DOCTYPE html>
-<html class="has-navbar-fixed-top">
+<html class="has-navbar-fixed-top" lang="en">
     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Cache-Control" content="public, max-age:2592000" />
+        <meta name="description" content="The official website for Kingdom Application Solutions LLC." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Kingdom Application Solutions LLC</title>
-        <script src="./scripts/scripts.js"></script>
-        <link rel="stylesheet" href="./styles/styles.css" />
         <link rel="icon" href="./images/favicon.ico" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-        <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <link rel="stylesheet" defer href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <link rel="stylesheet" defer href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <script src="./scripts/scripts.js"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
     </head>
 
     <body>
         <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <a class="navbar-item" href="https://kingdomappsolutions.tech">
-                    <img src="./images/website.logo.png">
+                    <picture>
+                        <source srcset="./images/website.logo.webp" type="image/webp">
+                        <source srcset="./images/website.logo.png" type="image/png">
+                        <img src="./images/website.logo.webp" alt="Main page logo" width="112" height="28">
+                    </picture>
                 </a>
         
                 <a role="button" class="navbar-burger is-dark" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -53,7 +60,7 @@
                     </div>
 
                     <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">
+                        <a class="navbar-link" href="https://kingdomappsolutions.tech/about.html">
                             Info
                         </a>
                 
@@ -80,7 +87,7 @@
                         <div class="buttons">
                             <a class="button learn-more-button" href="https://kingdomappsolutions.tech/mission-vision-values.html">
                             <i class="fas fa-info-circle"></i>
-                            &nbsp;&nbsp; <strong>Learn More</strong>
+                            &nbsp;&nbsp; <strong>Our Values</strong>
                             </a>
                         </div>
                     </div>
@@ -91,9 +98,13 @@
         <section class="hero section-black">
             <div class="hero-body">
                 <div class="container">
-                    <img class="home-image" src="./images/header.png" width="500" alt="Our logo">
+                    <picture>
+                        <source srcset="./images/header.webp" type="images/webp">
+                        <source srcset="./images/header.png" type="images/png">
+                        <img class="home-image" src="./images/header.png" width="500" height="281" alt="Our logo">
+                    </picture>
                     <h1 class="title white-text">
-                        Glorifying God Through the Development of Quality Software Applications!
+                        Glorifying God by Developing Quality Mobile Apps and Websites!
                     </h1><br>
                 </div>    
             </div>     
@@ -121,11 +132,11 @@
                             </ol>
                         </div>
                         <a class="button info-button" href="https://kingdomappsolutions.tech/mission-vision-values.html">
-                            <b>Learn More</b>
+                            <b>Our Mission, Vision, & Values</b>
                         </a>
                     </div><br>
                     <div class="column">
-                        <img class="image-home" src="./images/about.png" alt="Who we are">
+                        <img class="image-home" src="./images/about.webp" alt="Who we are" width="640" height="480">
                     </div>
                 </div>
             </div>
@@ -135,7 +146,7 @@
             <div class="hero-body">
                 <div class="columns is-centered">
                     <div class="column is-half">
-                        <img src="./images/apps.png" alt="Mobile apps">
+                        <img src="./images/apps.webp" alt="Mobile apps" width="640" height="480">
                     </div>
                     <div class="column">
                         <h2 class="subtitle privacy-h3">
@@ -145,7 +156,7 @@
                             We offer mobile app development for small business and organizations at an affordable price. Our goal is to bring mobile app development to those who otherwise would not be able to afford it. Our pricing packages seek to bridge the gap between having no mobile app and the high-priced apps. <br><br> Along with mobile app development, we also develop and deploy our own app solutions that solve problems, try to make life easier, and provide entertainment. These apps cover a wide range of genres including tech, church/ministry, health, and games. Most of our apps are free with subscription options for more features. Each of our mobile apps are developed for both Android and Apple and deployed to the Google Play Store and the Apple App Store.
                         </h4>
                         <a class="button info-button" href="https://kingdomappsolutions.tech/apps.html">
-                        <b>Learn More</b>
+                        <b>About Mobile App Development</b>
                         </a>
                     </div>
                 </div>
@@ -163,11 +174,11 @@
                             We offer the design and development of custom websites for anyone interested in having a quality-made website. We also offer the creation of websites through a content manangement option. Our website development service is a monthly charge that includes development and site maintenance.
                         </h4>
                         <a class="button info-button" href="https://kingdomappsolutions.tech/websites.html">
-                            <b>Learn More</b>
+                            <b>About Website Development</b>
                         </a>
                     </div><br>
                     <div class="column">
-                        <img class="image-home" src="./images/websites.png" alt="Website development">
+                        <img class="image-home" src="./images/websites.webp" alt="Website development" width="640" height="480">
                     </div>
                 </div>
             </div>
@@ -220,7 +231,7 @@
                 <div class="columns">
                     <div class="column">
                         <p>
-                           <a href="mailto:justin@kingdomappsolutions.tech">justin@kingdomappsolutions.tech</a>
+                           <a class="footer-a" href="mailto:justin@kingdomappsolutions.tech">justin@kingdomappsolutions.tech</a>
                         </p>
                     </div>
                 </div>

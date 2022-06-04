@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html class="has-navbar-fixed-top">
+<html class="has-navbar-fixed-top" lang="en">
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="Cache-Control" content="public, max-age:2592000" />
+        <meta name="description" content="Learn more about Kingdom Application Solutions LLC." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About Us</title>
-        <script src="./scripts/scripts.js"></script>
-        <link rel="stylesheet" href="./styles/styles.css" />
         <link rel="icon" href="./images/favicon.ico" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-        <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <link rel="stylesheet" defer href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <link rel="stylesheet" defer href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <script src="./scripts/scripts.js"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
     </head>
 
     <body>
         <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <a class="navbar-item" href="https://kingdomappsolutions.tech">
-                    <img src="./images/website.logo.png">
+                    <picture>
+                        <source srcset="./images/website.logo.webp" type="image/webp">
+                        <source srcset="./images/website.logo.png" type="image/png">
+                        <img src="./images/website.logo.webp" alt="Main page logo" width="112" height="28">
+                    </picture>
                 </a>
         
                 <a role="button" class="navbar-burger is-dark" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -54,7 +60,7 @@
                     </div>
 
                     <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link is-active">
+                        <a class="navbar-link is-active" href="https://kingdomappsolutions.tech/about.html">
                             Info
                         </a>
                 
@@ -81,7 +87,7 @@
                         <div class="buttons">
                             <a class="button learn-more-button" href="https://kingdomappsolutions.tech/mission-vision-values.html">
                             <i class="fas fa-info-circle"></i>
-                            &nbsp;&nbsp; <strong>Learn More</strong>
+                            &nbsp;&nbsp; <strong>Our Values</strong>
                             </a>
                         </div>
                     </div>
@@ -95,7 +101,11 @@
                     <h1 class="title white-text">
                         Our Company
                     </h1>
-                    <img class="home-image" src="./images/header.png" width="300" alt="Logo">
+                    <picture>
+                        <source srcset="./images/header.webp" type="images/webp">
+                        <source srcset="./images/header.png" type="images/png">
+                        <img class="home-image" src="./images/header.webp" width="300" height="169" alt="Our logo">
+                    </picture>
                 </div>
             </div>
         </section>
@@ -119,14 +129,18 @@
                         <div class="card">
                             <div class="card-image">
                                 <figure class="image is-4by3">
-                                    <img src="./images/pic.jpg" alt="Justin Owens family">
+                                    <picture>
+                                        <source srcset="./images/pic.webp" type="images/webp">
+                                        <source srcset="./images/pic.jpg" type="images/jpeg">
+                                        <img src="./images/pic.webp" alt="Justin Owens family" width="500" height="375">
+                                    </picture>
                                 </figure>
                             </div> 
                             <div class="card-content">
                                 <div class="media">
                                     <div class="media-left">
                                         <figure class="image is-48x48">
-                                            <img src="https://i.imgur.com/bIr3R3N.jpg" alt="Justin Owens family">
+                                            <img src="https://i.imgur.com/bIr3R3N.jpg" alt="Justin Owens family" width="697" height="763">
                                         </figure>
                                     </div>
                                     <div class="media-content">
@@ -146,7 +160,7 @@
                 <div class="columns">
                     <div class="column">
                         <p>
-                           <a href="mailto:justin@kingdomappsolutions.tech">justin@kingdomappsolutions.tech</a>
+                           <a class="footer-a" href="mailto:justin@kingdomappsolutions.tech">justin@kingdomappsolutions.tech</a>
                         </p>
                     </div>
                 </div>
