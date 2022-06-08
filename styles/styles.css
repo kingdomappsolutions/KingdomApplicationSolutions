@@ -51,10 +51,6 @@ h3 {
     text-align: center !important;
 }
 
-/* .justify {
-    text-align: justify !important;
-} */
-
 .privacy-h3 {
     font-size: 24px !important;
     color: black !important;
@@ -265,14 +261,8 @@ picture {
 
 /* Social icons */
 .facebook {
-    color: #ffffff;
+    color: #dcdada !important;
 }
 .facebook:hover {
-    color: #ffffff;
-}
-.twitter {
-    color: #ffffff;
-}
-.twitter:hover {
-    color: #ffffff;
+    color: #dcdada !important;
 }
