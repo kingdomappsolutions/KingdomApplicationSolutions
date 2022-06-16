@@ -110,9 +110,20 @@ ul li {
     color: white !important;
 }
 
-.info-button:hover {
-    color: white !important;
+.is-blue {
     background-color: #113c8a !important;
+    color: white !important;
+}
+
+.info-button {
+    background-color: #113c8a !important;
+    color: white !important;
+}
+
+.info-button:hover {
+    color: black !important;
+    background-color: white !important;
+    /* border-color: #113c8a !important; */
 }
 
 button {
