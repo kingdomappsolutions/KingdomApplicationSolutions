@@ -37,3 +37,22 @@ const redirect = () => {
 		location.href = "https://kingdomappsolutions.tech/contact.html"
 	 }, 5000)
 }
+
+// Randomize contact form valid checks
+const validate = () => {
+    const validateArray = [
+        "What is 4 + 9? (number only)",
+        "What is 5 + 7? (number only)",
+        "What is the first letter in the word 'dog'?",
+        "How many stars are on the American flag? (number only)",
+        "What is 8 + 8? (number only)",
+        "What is the second letter in the word 'pharmacy'?",
+        "What is 10 - 4? (number only)",
+        "What is 19 - 0? (number only)",
+        "What is the last letter in the word 'ocean'?",
+        "How many thumbs are on two hands? (number only)"
+    ]
+    const arrayChoice = Math.floor(Math.random() * validateArray.length)
+
+    document.getElementById("validateLabel").innerHTML = validateArray[arrayChoice]
+}

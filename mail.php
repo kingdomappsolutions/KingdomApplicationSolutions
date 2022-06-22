@@ -14,7 +14,7 @@
       return $data;
     }
 
-    if ($answer == 13) {
+    if ($answer == 13 || $answer == 12 || $answer == 'd' || $answer == 50 || $answer == 16 || $answer == 'h' || $answer == 6 || $answer == 19 || $answer == 'n' || $answer == 2) {
         $formcontent="From: $name \n\n Email Address: $email \n\n Subject: $option \n\n Message: $message";
         $recipient = "justin@kingdomappsolutions.tech";
         $subject = "Contact Form Submission";

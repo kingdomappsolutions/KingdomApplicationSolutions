@@ -14,7 +14,7 @@
         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
     </head>
 
-    <body>
+    <body onload="validate()">
         <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <a class="navbar-item" href="https://kingdomappsolutions.tech">
@@ -156,7 +156,7 @@
                     </div>
 
                     <div class="field">
-                        <label class="label">What is 4 + 9? (number only)</label>
+                        <label class="label" id="validateLabel"></label>
                         <div class="control">
                         <input class="input is-info" type="text" placeholder="Your answer" required name="Answer">
                         </div>
