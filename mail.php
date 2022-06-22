@@ -4,6 +4,7 @@
       $email = testInput($_POST["Email"]);
       $option = testInput($_POST["Option"]);
       $message = testInput($_POST["Message"]);
+      $answer = testInput($_POST["Answer"]);
     }
 
     function testInput($data) {
@@ -13,10 +14,15 @@
       return $data;
     }
 
-	$formcontent="From: $name \n\n Email Address: $email \n\n Subject: $option \n\n Message: $message";
-	$recipient = "justin@kingdomappsolutions.tech";
-	$subject = "Contact Form Submission";
-	$mailheader = "From: $name <$email> \r\n";
-	mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-	header("Location:https://kingdomappsolutions.tech/success.html");
+    if ($answer == 13) {
+        $formcontent="From: $name \n\n Email Address: $email \n\n Subject: $option \n\n Message: $message";
+        $recipient = "justin@kingdomappsolutions.tech";
+        $subject = "Contact Form Submission";
+        $mailheader = "From: $name <$email> \r\n";
+        mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+        header("Location:https://kingdomappsolutions.tech/success.html");
+    } else {
+        header("Location:https://kingdomappsolutions.tech");
+    }
+
 ?>
