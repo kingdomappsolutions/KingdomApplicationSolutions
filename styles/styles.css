@@ -83,6 +83,10 @@ a.mylink {
     color: #333333;
 }
 
+a.bluelink {
+    color: #113c8a;
+}
+
 .link {
     color: black !important;
 }
