@@ -70,10 +70,6 @@ p {
     font-size: 20px;
 }
 
-p svg {
-    margin-right: 10px !important;
-}
-
 p a {
     color: #333333 !important;
     font-size: 18px;
