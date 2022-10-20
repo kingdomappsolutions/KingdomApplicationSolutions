@@ -110,6 +110,16 @@ ul li {
     color: white !important;
 }
 
+.calendly-button {
+    background-color: #113c8a !important;
+    color: white !important;
+}
+
+.calendly-button:hover {
+    color: black !important;
+    background-color: white !important;
+}
+
 .is-blue {
     background-color: #113c8a !important;
     color: white !important;
