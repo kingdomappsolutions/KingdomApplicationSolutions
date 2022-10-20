@@ -120,12 +120,23 @@ ul li {
     color: white !important;
 }
 
-.info-button {
+.info-button-blue {
     background-color: #113c8a !important;
     color: white !important;
 }
 
-.info-button:hover {
+.info-button-blue:hover {
+    color: black !important;
+    background-color: white !important;
+    /* border-color: #113c8a !important; */
+}
+
+.info-button-brick {
+    background-color: #8d361e !important;
+    color: white !important;
+}
+
+.info-button-brick:hover {
     color: black !important;
     background-color: white !important;
     /* border-color: #113c8a !important; */
