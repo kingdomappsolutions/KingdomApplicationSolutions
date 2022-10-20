@@ -106,12 +106,17 @@ ul li {
 
 /* Buttons */
 .learn-more-button {
-    background-color: #113c8a !important;
+    background-color: #8d361e !important;
     color: white !important;
 }
 
 .is-blue {
     background-color: #113c8a !important;
+    color: white !important;
+}
+
+.is-brick {
+    background-color: #8d361e !important;
     color: white !important;
 }
 
