@@ -166,26 +166,6 @@ ul li {
     /* border-color: #113c8a !important; */
 }
 
-.info-button-green {
-    background-color: #118a31 !important;
-    color: white !important;
-}
-
-.info-button-green:hover {
-    color: black !important;
-    background-color: white !important;
-}
-
-.info-button-brick {
-    background-color: #8d361e !important;
-    color: white !important;
-}
-
-.info-button-brick:hover {
-    color: black !important;
-    background-color: white !important;
-}
-
 button {
     padding: 10px 20px;
     display: block;
