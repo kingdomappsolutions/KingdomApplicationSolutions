@@ -2,9 +2,9 @@
 
 Glorifying God Through the Development of Quality Software Applications!
 
-We are a web & mobile software development company that strives to glorify God through the creation and distribution of quality mobile apps, website design & development, and graphic design for small businesses, non-profit organizations, and individuals.
+We are a web & mobile software development company that strives to glorify God through the creation and distribution of quality mobile apps & website design & development for churches, small businesses, and non-profit organizations.
 
-We offer three main services at Kingdom Application Solutions LLC: mobile application development, website design and development, and graphic design for small businesses, non-profit organizations and individuals. 
+We offer two main services at Kingdom Application Solutions LLC: mobile application development and website design and development for churches, small businesses, and non-profit organizations. 
 
 We also produce our own line of mobile apps deployed to the app stores. 
 
