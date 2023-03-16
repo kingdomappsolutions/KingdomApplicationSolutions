@@ -241,6 +241,10 @@ picture {
     margin-top: 3px !important;
 }
 
+.border {
+    border: 1px solid black !important;
+}
+
 /* Card elements */
 .card-header {
     background-color: #113c8a !important;
