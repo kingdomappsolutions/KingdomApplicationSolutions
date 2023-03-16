@@ -51,6 +51,10 @@ h2 {
     text-align: center !important;
 }
 
+h2 b a {
+    color: black;
+}
+
 .privacy-h2 {
     text-align: justify !important;
 }
