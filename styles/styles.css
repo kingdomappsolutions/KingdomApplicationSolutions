@@ -188,39 +188,6 @@ label {
     color: black !important;
 }
 
-.form-inline {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-}
-
-.form-inline label {
-    display: block;
-    text-align: center;
-    color: black;
-    font-size: 20px;
-    margin: 5px 10px 5px 0;
-    font-family: Georgia, serif;
-}
-
-.form-inline input {
-    font-size: 20px;
-    vertical-align: middle;
-    margin: 5px 10px 5px 0;
-    font-family: Georgia, serif;
-}
-
-@media (max-width: 800px) {
-    .form-inline input {
-        margin: 10px 0;
-    }
-
-    .form-inline {
-        flex-direction: column;
-        align-items: stretch;
-    }
-}
-
 /* Images */
 .home-image {
     display: block;
@@ -328,4 +295,82 @@ picture {
 }
 .facebook:hover {
     color: #dcdada !important;
+}
+
+/* Testimonial carousel */
+.source {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* (A) OUTER CONTAINER */
+.hwrap {
+    /* COSMETICS */
+    overflow: hidden;
+}
+
+/* (B) MIDDLE CONTAINER - FLEX LAYOUT */
+.hmove {
+    display: flex;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+/* (C) SLIDES - FORCE INTO ONE LONG HORIZONTAL ROW */
+.hslide {
+    width: 100%;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    text-align: justify;
+    padding: 10px;
+}
+
+/* (D) SLIDE ANIMATION */
+@keyframes slideh {
+    /* (D0) THE IDEA - USE KEYFRAMES TO SHIFT SLIDES *
+    0% { right: 0; }
+    33% { right: 100%; }
+    66% { right: 200%; }
+    100% { right: 0; }
+   
+    /* (D1) BUT THE ABOVE WILL SHIFT NON-STOP */
+    /* SO WE ADD PAUSES BETWEEN EACH SLIDE */
+    0% {
+        right: 0;
+    }
+    30% {
+        right: 0;
+    }
+    33% {
+        right: 100%;
+    }
+    63% {
+        right: 100%;
+    }
+    66% {
+        right: 200%;
+    }
+    97% {
+        right: 200%;
+    }
+    100% {
+        right: 0;
+    }
+}
+
+.hmove {
+    animation: slideh linear 30s infinite;
+}
+
+.hmove:hover {
+    animation-play-state: paused;
+}
+
+@media (max-width: 800px) {
+    .hwrap,
+    .hslide {
+        height: auto;
+    }
 }
