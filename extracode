@@ -1,0 +1,40 @@
+<!-- Code for Custom Website Pricing -->
+<div class="column">
+    <div class="card">
+        <header class="card-header-brick">
+            <p class="card-header-title is-centered">
+                <i class="fa-solid fa-code"></i>&nbsp; Custom Website
+                Development
+            </p>
+        </header>
+        <div class="card-content">
+            <div class="content">
+                <h2><b>$50 per hour</b></h2>
+                <h2 class="h2-price"><b>$90 per month</b></h2>
+                <h3><b>8 hours per page minimum</b></h3>
+                <h3><b>First 4 hours down payment</b></h3>
+                <h3>
+                    <b
+                        >Custom Website Development, Graphic Design, Search
+                        Engine Optimization, Increased Performance, Domain
+                        Setup, Hosting Setup, & Unlimited Updates</b
+                    >
+                </h3>
+                <h3>No page minimum or maximum!</h3>
+                <h3><b>Annual hosting renewal included</b></h3>
+                <h3>
+                    <b><i>BEST VALUE FOR CUSTOM WEBSITE SOLUTION!</i></b>
+                </h3>
+                <br />
+                <div class="buttons is-centered">
+                    <a
+                        class="button info-button-brick"
+                        href="https://kingdomappsolutions.tech/contact"
+                        target="_blank"
+                        ><b>Get Started!</b></a
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
